@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=0"
+  />
+  <title>Issue | AR Goodies | 2020-03-06</title>
+  <!-- start Mixpanel -->
+  <script type="text/javascript">
+    (function(c, a) {
+      if (!a.__SV) {
+        var b = window;
+        try {
+          var d,
+            m,
+            j,
+            k = b.location,
+            f = k.hash;
+          d = function(a, b) {
+            return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null;
+          };
+          f &&
+            d(f, "state") &&
+            ((j = JSON.parse(decodeURIComponent(d(f, "state")))),
+            "mpeditor" === j.action &&
+              (b.sessionStorage.setItem("_mpcehash", f),
+              history.replaceState(
+                j.desiredHash || "",
+                c.title,
+                k.pathname + k.search
+              )));
+        } catch (n) {}
+        var l, h;
+        window.mixpanel = a;
+        a._i = [];
+        a.init = function(b, d, g) {
+          function c(b, i) {
+            var a = i.split(".");
+            2 == a.length && ((b = b[a[0]]), (i = a[1]));
+            b[i] = function() {
+              b.push([i].concat(Array.prototype.slice.call(arguments, 0)));
+            };
+          }
+          var e = a;
+          "undefined" !== typeof g ? (e = a[g] = []) : (g = "mixpanel");
+          e.people = e.people || [];
+          e.toString = function(b) {
+            var a = "mixpanel";
+            "mixpanel" !== g && (a += "." + g);
+            b || (a += " (stub)");
+            return a;
+          };
+          e.people.toString = function() {
+            return e.toString(1) + ".people (stub)";
+          };
+          l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
+            " "
+          );
+          for (h = 0; h < l.length; h++) c(e, l[h]);
+          var f = "set set_once union unset remove delete".split(" ");
+          e.get_group = function() {
+            function a(c) {
+              b[c] = function() {
+                call2_args = arguments;
+                call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+                e.push([d, call2]);
+              };
+            }
+            for (
+              var b = {},
+                d = ["get_group"].concat(
+                  Array.prototype.slice.call(arguments, 0)
+                ),
+                c = 0;
+              c < f.length;
+              c++
+            )
+              a(f[c]);
+            return b;
+          };
+          a._i.push([b, d, g]);
+        };
+        a.__SV = 1.2;
+        b = c.createElement("script");
+        b.type = "text/javascript";
+        b.async = !0;
+        b.src =
+          "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+            ? MIXPANEL_CUSTOM_LIB_URL
+            : "file:" === c.location.protocol &&
+              "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+            ? "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js"
+            : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";
+        d = c.getElementsByTagName("script")[0];
+        d.parentNode.insertBefore(b, d);
+      }
+    })(document, window.mixpanel || []);
+    mixpanel.init("552a9860eff91813ea5c65a4faf1f28e");
+    mixpanel.track("issue");
+  </script>
+  <!-- end Mixpanel -->
+</head>
+
+  <body>
+    <main>
+      <div>
+  <style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.55em;
+  }
+  img {
+    border: 0;
+    outline: none;
+    height: auto;
+    text-decoration: none;
+    max-width: 100%;
+    line-height: 100%;
+  }
+  @media screen and (max-width: 600px) {
+    table[id="main"] {
+      max-width: 600px !important;
+      width: 100% !important;
+      min-width: 100% !important;
+    }
+    .nomob {
+      display: none !important;
+    }
+    .onlymob {
+      display: inline-block !important;
+    }
+    .rightifmob {
+      text-align: right !important;
+    }
+    .som {
+      max-width: 33% !important;
+    }
+    div.footer p {
+      text-align: left !important;
+    }
+    div.footer td {
+      text-align: left !important;
+    }
+    .el-columns .column {
+      display: block;
+      width: 100% !important;
+    }
+  }
+</style>
+
+
+  <!--[if (gte mso 9)|(IE)]>
+    <table cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" width="600">
+       <tr>
+          <td valign="top" style="width: 600px;" bgcolor="#ffffff">
+             <![endif]-->
+  <table
+    align="center"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    id="main"
+    width="100%"
+    style="table-layout: fixed; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; max-width: 600px; height: 100% !important; padding: 0px;"
+  >
+    <tbody>
+      <tr>
+        <td
+          style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; padding-bottom: 1.5em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+        >
+          <div id="content">
+            <!-- masthead -->
+            <table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  style="background-image: linear-gradient(105deg, #0080FF, #FBBDFF); text-align: center; color: #ffffff; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+  class="el-masthead"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0 12px;"
+      >
+        <a target="_blank" href="https://argoodies.com">
+          <div
+            style="background-image: url(https://argoodies.com/asset/image/logo.png); background-position: center; background-size: 100%; height: 10.0em; margin-top: 0.8em; margin-bottom: 0.8em;"
+          ></div
+        ></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+            <!-- splitbar -->
+            <table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  style="border-bottom: solid 2px #fafafa; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        width="50%"
+        align="left"
+        style="padding-left: 4px; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+      >
+        <p
+          style="font-size: 12px; color: #999999; text-transform: uppercase; line-height: 1.0em; margin-top: 0.8em; margin-bottom: 0.8em;"
+        >
+          2020-03-06
+        </p>
+      </td>
+      <td
+        width="50%"
+        align="right"
+        style="padding-right: 4px; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+      >
+        <p
+          style="font-size: 12px; text-transform: uppercase; line-height: 1.0em; margin-top: 0.8em; margin-bottom: 0.8em;"
+        >
+          <a
+            target="_blank"
+            href="https://argoodies.com/issue-2020-03-06"
+            style="text-decoration: none; color: #3366aa;"
+            >Read on the Web</a
+          >
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+            <!-- Articles items -->
+            
+<table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  class="el-item item"
+  style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;"
+      >
+        <p
+          class="desc"
+          style="color: #444; margin-top: 0.8em; margin-bottom: 0;"
+        >
+          <span
+            style="font-weight: 600; font-size: 1.1em; color: #000;"
+            class="mainlink"
+            ><a
+              target="_blank"
+              href="https://arvrjourney.com/create-lenskart-like-ar-app-using-ios-realitycomposer-and-realitykit-with-almost-no-coding-119b149b7310"
+              title="argoodies.com"
+              style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important; font-size: 1.05em;"
+              >Create Lenskart like AR app using iOS RealityComposer and RealityKit with almost no coding</a
+            ></span
+          >
+          Have seen the Lenskart’s ‘Try in 3D’ feature? It’s amazing. You can try sunglasses in 3D before purchasing it. Using this medium story, you can create similar AR iOS app using Apple’s RealityKit and RealityComposer with almost no coding (very less code is required).
+        </p>
+        <p
+          class="name"
+          style="color: #5a5a5a; margin-top: 4px; margin-bottom: 0.8em; text-transform: uppercase; font-size: 12px; line-height: 1.2em;"
+        >
+          arvrjourney
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+            <!-- Apps & Games Badge -->
+            <table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  class="el-heading"
+  style="background-color: none !important; text-align: left; margin-top: 15px; color: #333333; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0;"
+      >
+        <p
+          style="text-align: center;
+        font-size: 1em !important;
+        font-weight: 400 !important;
+        text-transform: none !important;
+        line-height: 1.8em;
+        background-color: #FBBDFF;
+        margin: 0.5em 0;"
+        >
+          Apps &amp; Games
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+            <!-- Apps items -->
+            <table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  class="figure"
+  style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;"
+      >
+        <a
+          target="_blank"
+          href="https://www.producthunt.com/posts/entrance-architect"
+          style="text-decoration: none; color: #3366aa;"
+        >
+          <!-- <img src="https://ph-files.imgix.net/cea65e92-39a7-41db-ae0f-61be0198614a?auto=format&amp;auto=compress&amp;codec=mozjpeg&amp;cs=strip&amp;w=175.65485362095532&amp;h=380&amp;fit=max" width="320" style="margin-bottom: 0px; width: 100%; outline: none; height: auto; text-decoration: none; max-width: 100%; line-height: 100%; border: 1px solid #999999;"/> -->
+          <div
+          style="border: solid 1px rgba(0,0,0,0.1); background-size: cover; background-repeat: no-repeat; background-image: url(https://ph-files.imgix.net/cea65e92-39a7-41db-ae0f-61be0198614a?auto=format&amp;auto=compress&amp;codec=mozjpeg&amp;cs=strip&amp;w=175.65485362095532&amp;h=380&amp;fit=max); background-position: center; height: 10.0em; margin-top: 0.8em; margin-bottom: 0.8em;"
+        ></div
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  class="el-item item"
+  style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;"
+      >
+        <p
+          class="desc"
+          style="color: #444; margin-top: 0.8em; margin-bottom: 0;"
+        >
+          <span
+            style="font-weight: 600; font-size: 1.1em; color: #000;"
+            class="mainlink"
+            ><a
+              target="_blank"
+              href="https://www.producthunt.com/posts/entrance-architect"
+              title="argoodies.com"
+              style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important; font-size: 1.05em;"
+              >Entrance Architect: Augmented Reality for Entrance Matting</a
+            ></span
+          >
+          Entrance Architect allows users to find the perfect entrance matting solution by visualising any of our products within their entrance by using the augmented reality feature. Simply pick a product, a style, then use the camera to place the matting.
+        </p>
+        <p
+          class="name"
+          style="color: #5a5a5a; margin-top: 4px; margin-bottom: 0.8em; text-transform: uppercase; font-size: 12px; line-height: 1.2em;"
+        >
+          entrance-architect
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+            <!-- Games items -->
+            
+
+            <!-- Goodies Badge -->
+            <table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  class="el-heading"
+  style="background-color: none !important; text-align: left; margin-top: 15px; color: #333333; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0;"
+      >
+        <p
+          style="text-align: center;
+        font-size: 1em !important;
+        font-weight: 400 !important;
+        text-transform: none !important;
+        line-height: 1.8em;
+        background-color: #FBBDFF;
+        margin: 0.5em 0;"
+        >
+          Goodies
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+            <!-- Goodies items -->
+            
+<table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  class="el-item item"
+  style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;"
+      >
+        <p
+          class="desc"
+          style="color: #444; margin-top: 0.8em; margin-bottom: 0;"
+        >
+          <span
+            style="font-weight: 600; font-size: 1.1em; color: #000;"
+            class="mainlink"
+            ><a
+              target="_blank"
+              href="https://www.reddit.com/r/augmentedreality/comments/fa8vp8/banana_for_scale_ar_link_in_comments/?utm_source=share&amp;utm_medium=web2x"
+              title="argoodies.com"
+              style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important; font-size: 1.05em;"
+              >Banana For Scale AR</a
+            ></span
+          >
+          Banana for scale is available on the android play store.It&#39;s a basic AR app for quick banana measurement. 
+        </p>
+        <p
+          class="name"
+          style="color: #5a5a5a; margin-top: 4px; margin-bottom: 0.8em; text-transform: uppercase; font-size: 12px; line-height: 1.2em;"
+        >
+          reddit
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  class="el-item item"
+  style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;"
+      >
+        <p
+          class="desc"
+          style="color: #444; margin-top: 0.8em; margin-bottom: 0;"
+        >
+          <span
+            style="font-weight: 600; font-size: 1.1em; color: #000;"
+            class="mainlink"
+            ><a
+              target="_blank"
+              href="https://youtu.be/R96u39o5aVE"
+              title="argoodies.com"
+              style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important; font-size: 1.05em;"
+              >Redesign lab for H&amp;M</a
+            ></span
+          >
+          We collaborated with H&amp;M Group  create this installation which allowed customers to create a personalize design on a second hand garment. Their design was instantly printed to take home and extend its life cycle.
+        </p>
+        <p
+          class="name"
+          style="color: #5a5a5a; margin-top: 4px; margin-bottom: 0.8em; text-transform: uppercase; font-size: 12px; line-height: 1.2em;"
+        >
+          youtube
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  class="el-item item"
+  style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"
+>
+  <tbody>
+    <tr>
+      <td
+        style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;"
+      >
+        <p
+          class="desc"
+          style="color: #444; margin-top: 0.8em; margin-bottom: 0;"
+        >
+          <span
+            style="font-weight: 600; font-size: 1.1em; color: #000;"
+            class="mainlink"
+            ><a
+              target="_blank"
+              href="https://youtu.be/VOVqJzMYBwA"
+              title="argoodies.com"
+              style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important; font-size: 1.05em;"
+              >Eminem Augmented AR-app: Live Show Experience Preview</a
+            ></span
+          >
+          Live Show Experience Preview (Kill You)
+        </p>
+        <p
+          class="name"
+          style="color: #5a5a5a; margin-top: 4px; margin-bottom: 0.8em; text-transform: uppercase; font-size: 12px; line-height: 1.2em;"
+        >
+          youtube
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!--[if (gte mso 9)|(IE)]>
+          </td>
+       </tr>
+    </table>
+    <![endif]-->
+</div>
+
+    </main>
+  </body>
+</html>
